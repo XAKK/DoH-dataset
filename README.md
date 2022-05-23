@@ -16,7 +16,7 @@ Original DoH traffic dataset can be obtain by clicking [here](https://www.heywha
 
 The dataset was generated from February 12, 2022 to February 25, 2022.
 
-The domain name list of dataset contains 1000 domain names, originating from [Chinaz website](https://top.chinaz.com/alltop/](https://top.chinaz.com/alltop/)) ranking on February 6, 2022 (domain name file can be seen in `domains/chinaz-ranking-reachable-20220206.txt`). Domain names are selected in sequence. The websites that cannot provide services or do not use HTTPS are excluded in the domain name list.
+The domain name list of dataset contains 1000 domain names, originating from [Chinaz website](https://top.chinaz.com/alltop/) ranking on February 6, 2022 (domain name file can be seen in `domains/chinaz-ranking-reachable-20220206.txt`). Domain names are selected in sequence. The websites that cannot provide services or do not use HTTPS are excluded in the domain name list.
 
 In the dataset generation stage, the DNS-over-HTTPS server is AliDNS (IPv4 addresses are 223.5.5.5, 223.6.6.6). For each domain name, 100 DoH traffic sample were collected by visiting website repeatly.
 
