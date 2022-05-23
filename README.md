@@ -10,12 +10,11 @@ Fig 1 DoH Traffic Generation and Collection System architecture
 
 <img src="imgs/DTGCS.drawio.svg" style="zoom:25%;" />
 
-
 ## 2 Original DoH Traffic Dataset
 
 Original DoH traffic dataset can be obtain by clicking [here](https://www.heywhale.com/mw/dataset/628b4994f498c246a27cfdf5/file).
 
-The data set was generated from February 12, 2022 to February 25, 2022.
+The dataset was generated from February 12, 2022 to February 25, 2022.
 
 The domain name list of dataset contains 1000 domain names, originating from [Chinaz website](https://top.chinaz.com/alltop/](https://top.chinaz.com/alltop/)) ranking on February 6, 2022 (domain name file can be seen in `domains/chinaz-ranking-reachable-20220206.txt`). Domain names are selected in sequence. The websites that cannot provide services or do not use HTTPS are excluded in the domain name list.
 
@@ -29,9 +28,9 @@ Table 1 DoH traffic dataset generation environment
 | ------------------------ | ------------------------------------------ |
 | CPU                      | Intel(R) Core(TM)2 Duo CPU T7700 @ 2.40GHz |
 | CPU core number          | 12                                         |
-| Memory                   | 24GB                                       |
-| Downstream bandwidth     | >200Mbps                                   |
-| Upstream bandwidth       | >200Mbps                                   |
+| Memory                   | 24 GB                                      |
+| Downstream bandwidth     | > 200 Mbps                                 |
+| Upstream bandwidth       | > 200 Mbps                                 |
 | OS                       | Ubuntu 20.04.1 LTS amd64                   |
 | Browser                  | Google Chrome (version 97.0.4692.99)       |
 | Web automation framework | Selenium (version 4.1.0)                   |
@@ -59,6 +58,6 @@ where,
 
 * tuple `"(2886734945, 3741648133, 57244, 443, 'tcp', 0)"`  is the flow ID, the items in the tuple are source IP address, destination IP address, source port, destination port, protocol, and flow type (bidirectional or unidirectional) in turns;
 * `"ts_list"` means the timestamp list of the packet sent, in seconds;
-* `"ps_list"` means packet size list (bytes);
+* `"ps_list"` means packet size list (in bytes);
 * `"direction_list"` indicates the direction of packets list. 0 indicates source-to-destination and 1 indicates destination to source;
-* `"piat_list"` indicates the packet interarrival time (in ms) list, and the first value is 0.
+* `"piat_list"` indicates the packet interarrival time list (in ms), and the first value is 0.

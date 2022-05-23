@@ -26,9 +26,9 @@ DNS-over-HTTPS 协议是当前最主流的加密 DNS 协议。
 | ------------- | ------------------------------------------ |
 | CPU型号       | Intel(R) Core(TM)2 Duo CPU T7700 @ 2.40GHz |
 | CPU核数       | 12                                         |
-| 内存大小      | 24GB                                       |
-| 下行最大带宽  | >200Mbps                                   |
-| 上行最大带宽  | >200Mbps                                   |
+| 内存大小      | 24 GB                                      |
+| 下行最大带宽  | > 200 Mbps                                 |
+| 上行最大带宽  | > 200 Mbps                                 |
 | 操作系统      | Ubuntu 20.04.1 LTS amd64                   |
 | 浏览器        | Google Chrome (version 97.0.4692.99)       |
 | Web自动化框架 | Selenium (version 4.1.0)                   |
